@@ -179,7 +179,7 @@ body {
     padding: 0 20px;
   }
 
-  .product-container {
+  .product-containers {
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -196,6 +196,7 @@ body {
 .size.expanded {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .container.expanded {
